@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <h1 class="heading">Quiz App</h1>
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Question</h2>
+        <ul class="quiz-list">
+          <li>
+            <input type="radio" class="answer" id="a" name="answer" />
+            <label for="a" id="a_text" name="answer">a</label>
+          </li>
+          <li>
+            <input type="radio" class="answer" id="b" name="answer" />
+            <label for="b" id="b_text" name="answer">a</label>
+          </li>
+          <li>
+            <input type="radio" class="answer" id="c" name="answer" />
+            <label for="c" id="c_text" name="answer">a</label>
+          </li>
+          <li>
+            <input type="radio" class="answer" id="d" name="answer" />
+            <label for="d" id="d_text" name="answer">a</label>
+          </li>
+        </ul>
+      </div>
+      <button class="btn" id="btn">Submit</button>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
