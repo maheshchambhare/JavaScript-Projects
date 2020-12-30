@@ -15,7 +15,7 @@ function addObj() {
     d: document.getElementById("solution").value,
     currect: document.getElementById("solution").value,
   };
-  objects.append(obj);
+  objects.push(obj);
   console.log(objects);
 }
 document.getElementById("btn01").addEventListener("click", addObj);
