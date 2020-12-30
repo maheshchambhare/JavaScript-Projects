@@ -1,4 +1,4 @@
-const quizList = [
+let quizList = [
   {
     question: "JavaScript is a ___ -side programming language.",
     a: "Client",
