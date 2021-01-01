@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@500&family=Poppins:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bungee", cursive;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(
+    45deg,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 30vh;
+  width: 50%;
+  overflow: hidden;
+  margin-top: 50px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 0 0 20px #13131352;
+  border-radius: 30px;
+}
+
+.text-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.3rem;
+  height: 100px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+
+  position: absolute;
+  width: 20%;
+  margin-top: 60px;
+  margin-left: 85%;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  height: 100px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 0 10px #13131344;
+  padding: 10px;
+  cursor: pointer;
+}

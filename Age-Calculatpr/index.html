@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Age Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form1">
+        <h1>Age Calculator</h1>
+        <div class="calculator-container">
+          <label for="date-of-birth">Enter Your Date Of Birth</label>
+          <input type="date" id="date-of-birth" />
+        </div>
+        <div class="btnn">
+          <button class="btn" id="calculate">Calculate Age</button>
+        </div>
+      </div>
+      <div class="form2">
+        <div class="age">
+          <h1 class="head">Total Age</h1>
+          <div class="container-output">
+            <div class="span-el years-c">
+              <p class="big-text" id="years">0</p>
+              <span>Years</span>
+            </div>
+            <div class="span-el months-c">
+              <p class="big-text" id="months">0</p>
+              <span>Months</span>
+            </div>
+            <div class="span-el days-c">
+              <p class="big-text" id="days">0</p>
+              <span>Days</span>
+            </div>
+            <div class="span-el hours-c">
+              <p class="big-text" id="hours">0</p>
+              <span>Hours</span>
+            </div>
+            <div class="span-el minutes-c">
+              <p class="big-text" id="minutes">0</p>
+              <span>Minutes</span>
+            </div>
+            <div class="span-el seconds-c">
+              <p class="big-text" id="seconds">0</p>
+              <span>Seconds</span>
+            </div>
+          </div>
+          <button id="back">Back</button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
